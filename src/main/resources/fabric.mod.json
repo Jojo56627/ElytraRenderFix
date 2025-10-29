@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "elytrarenderfix",
+  "version": "${version}",
+  "name": "ElytraRenderFix",
+  "description": "A mod that removes the warning about experimental world settings after acknowleging it one time.",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/elytrarenderfix/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.quarxy.elytrarenderfix.ElytraRenderFixClient"
+    ],
+    "main": [
+      "net.quarxy.elytrarenderfix.ElytraRenderFix"
+    ]
+  },
+  "mixins": [
+    "elytrarenderfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

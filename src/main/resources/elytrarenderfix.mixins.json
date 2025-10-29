@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.quarxy.elytrarenderfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "EquipmentRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
