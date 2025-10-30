@@ -3,8 +3,10 @@
   "id": "elytrarenderfix",
   "version": "${version}",
   "name": "ElytraRenderFix",
-  "description": "A mod that removes the warning about experimental world settings after acknowleging it one time.",
-  "authors": [],
+  "description": "This mod fixes a bug in Minecraft's code that causes elytras to have a missingno texture when an item renders a trimmed armor piece AND an elytra via resource pack and minecraft:equippable component.",
+  "authors": [
+    "Quarxy"
+  ],
   "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/elytrarenderfix/icon.png",
